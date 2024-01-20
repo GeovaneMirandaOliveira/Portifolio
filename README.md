@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Bem-vindo ao Meu Portfólio 🌟
 =============================
 
@@ -12,6 +13,21 @@ Sou um entusiasta da tecnologia apaixonado por criar soluções inovadoras. Minh
 
 Meus Projetos 🚀
 ----------------
+=======
+# Portifolio 
+
+ **Em construção**
+
+ Bem-vindo ao Meu Portfólio 🌟
+
+Olá, eu sou Geovane Miranda , um entusiasta da tecnologia e um apaixonado por resolver problemas por meio da programação. Atualmente, estou em um emocionante processo de transição de carreira. Após anos trabalhando como programador de CNC, decidi embarcar em uma nova jornada como desenvolvedor de software.
+
+Sobre Mim 👨‍💻
+
+Sou um entusiasta da tecnologia apaixonado por criar soluções inovadoras. Minha jornada profissional começou como programador de CNC, onde adquiri habilidades valiosas em precisão e lógica. Agora, estou empenhado em transferir essa experiência para o mundo do desenvolvimento de software.
+
+Meus Projetos 🚀
+>>>>>>> f41789e078a4209d5efb88008eca2ec4e6e395d0
 
 ### Projeto 1: Flex Turismos
 
@@ -25,7 +41,11 @@ Meus Projetos 🚀
 
 ### Projeto 2: Super Mario Bros - O Filme
 
+<<<<<<< HEAD
 **Descrição:** Este projeto é uma página web que criei com as aulas da Dev em dobro  para promover um filme fictício baseado no mundo de Super Mario Bros. Ele apresenta um vídeo teaser, detalhes sobre o enredo e uma opção para assistir ao trailer oficial.
+=======
+**Descrição:** Este projeto é uma página web que criei com as aulas da Dev em dobro para promover um filme fictício baseado no mundo de Super Mario Bros. Ele apresenta um vídeo teaser, detalhes sobre o enredo e uma opção para assistir ao trailer oficial.
+>>>>>>> f41789e078a4209d5efb88008eca2ec4e6e395d0
 
 **Tecnologias Utilizadas:**
 
@@ -34,7 +54,11 @@ Meus Projetos 🚀
 
 ### Projeto 3: Instagram
 
+<<<<<<< HEAD
 **Descrição:** O projeto ***Instagram**  é uma recriação simplificada da interface do Instagram. Ele apresenta uma página de login, informações de perfil e opções de download do aplicativo.
+=======
+**Descrição:** O projeto ***Instagram** é uma recriação simplificada da interface do Instagram. Ele apresenta uma página de login, informações de perfil e opções de download do aplicativo.
+>>>>>>> f41789e078a4209d5efb88008eca2ec4e6e395d0
 
 **Tecnologias Utilizadas:**
 
@@ -42,7 +66,10 @@ Meus Projetos 🚀
 * Responsividade para dispositivos móveis
 
 O Que Eu Busco 🎯
+<<<<<<< HEAD
 -----------------
+=======
+>>>>>>> f41789e078a4209d5efb88008eca2ec4e6e395d0
 
 Estou em busca de oportunidades desafiadoras no campo do desenvolvimento de software, onde posso aplicar minha habilidade em lógica e precisão adquirida como programador de CNC. Estou animado para explorar novas tecnologias, desenvolver projetos inovadores e aprimorar minhas habilidades de programação.
 
@@ -50,6 +77,9 @@ Se você está interessado em colaborar, compartilhar conhecimento ou simplesmen
 
 **Obrigado por visitar o meu portfólio! 😊**
 
+<<<<<<< HEAD
 
 
+=======
+>>>>>>> f41789e078a4209d5efb88008eca2ec4e6e395d0
 ****Geovane Miranda Oliveira dos Santos***
