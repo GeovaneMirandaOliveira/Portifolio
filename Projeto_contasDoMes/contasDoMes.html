@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contas do Mês</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+        }
+
+        .container {
+            background: #fff;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+            padding: 20px;
+            text-align: center;
+            max-width: 400px;
+        }
+
+        h1 {
+            color: #333;
+        }
+
+        label {
+            display: block;
+            margin-top: 10px;
+            font-weight: bold;
+            color: #333;
+        }
+
+        input[type="text"], input[type="number"] {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            box-sizing: border-box;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        button {
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #0056b3;
+        }
+
+        .saida {
+            margin-top: 20px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Programa de Contas do Mês</h1>
+        <form id="formConta">
+            <label for="inDescricao">Descrição da conta:</label>
+            <input type="text" id="inDescricao" name="descricao" required>
+            
+            <label for="inValor">Valor a Pagar (R$):</label>
+            <input type="number" id="inValor" name="valor" step="0.01" required>
+            
+            <button type="submit">Registrar</button>
+        </form>
+        <div class="saida">
+            <h2>Lista de Contas:</h2>
+            <pre id="outListaContas"></pre>
+            <h2>Total:</h2>
+            <pre id="outTotal">0 Conta(s) - Total R$ 0.00</pre>
+        </div>
+    </div>
+    
+    <script>
+        // Variáveis para armazenar o número de contas, o valor total e a resposta (lista de contas formatada)
+        var numContas = 0;
+        var valTotal = 0;
+        var resposta = "";
+    
+        // Função chamada ao enviar o formulário
+        function registrarConta(event) {
+            // Impede o comportamento padrão do formulário (recarregar a página)
+            event.preventDefault();
+    
+            // Obtém elementos do formulário e de exibição
+            var inDescricao = document.getElementById("inDescricao");
+            var inValor = document.getElementById("inValor");
+            var outListaContas = document.getElementById("outListaContas");
+            var outTotal = document.getElementById("outTotal");
+    
+            // Obtém valores do formulário
+            var descricao = inDescricao.value;
+            var valor = Number(inValor.value);
+    
+            // Validação dos dados inseridos
+            if (descricao === "" || valor === 0 || isNaN(valor)) {
+                alert("Informe os dados corretamente ...");
+                inDescricao.focus();
+                return;
+            }
+    
+            // Incrementa o número de contas e adiciona o valor ao total
+            numContas++;
+            valTotal += valor;
+    
+            // Formata a resposta para exibir na lista de contas
+            resposta += descricao + " - R$ " + valor.toFixed(2) + "\n";
+    
+            // Exibe a lista de contas e o total na página
+            outListaContas.textContent = resposta + "-----------------------------------";
+            outTotal.textContent = numContas + " Conta(s) - Total R$ " + valTotal.toFixed(2);
+    
+            // Limpa os campos do formulário e foca no campo de descrição
+            inDescricao.value = "";
+            inValor.value = "";
+            inDescricao.focus();
+        }
+    
+        // Obtém o formulário e adiciona um ouvinte de evento para o envio
+        var formConta = document.getElementById("formConta");
+        formConta.addEventListener("submit", registrarConta);
+    </script>
+</body>
+</html>
