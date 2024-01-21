@@ -27,7 +27,7 @@ Sobre Mim 👨‍💻
 Sou um entusiasta da tecnologia apaixonado por criar soluções inovadoras. Minha jornada profissional começou como programador de CNC, onde adquiri habilidades valiosas em precisão e lógica. Agora, estou empenhado em transferir essa experiência para o mundo do desenvolvimento de software.
 
 Meus Projetos 🚀
->>>>>>> f41789e078a4209d5efb88008eca2ec4e6e395d0
+>>>>>>> 
 
 ### Projeto 1: Flex Turismos
 
@@ -58,7 +58,7 @@ Meus Projetos 🚀
 **Descrição:** O projeto ***Instagram**  é uma recriação simplificada da interface do Instagram. Ele apresenta uma página de login, informações de perfil e opções de download do aplicativo.
 =======
 **Descrição:** O projeto ***Instagram** é uma recriação simplificada da interface do Instagram. Ele apresenta uma página de login, informações de perfil e opções de download do aplicativo.
->>>>>>> f41789e078a4209d5efb88008eca2ec4e6e395d0
+
 
 **Tecnologias Utilizadas:**
 
@@ -69,7 +69,7 @@ O Que Eu Busco 🎯
 <<<<<<< HEAD
 -----------------
 =======
->>>>>>> f41789e078a4209d5efb88008eca2ec4e6e395d0
+>>>>>>> 
 
 Estou em busca de oportunidades desafiadoras no campo do desenvolvimento de software, onde posso aplicar minha habilidade em lógica e precisão adquirida como programador de CNC. Estou animado para explorar novas tecnologias, desenvolver projetos inovadores e aprimorar minhas habilidades de programação.
 
@@ -81,5 +81,5 @@ Se você está interessado em colaborar, compartilhar conhecimento ou simplesmen
 
 
 =======
->>>>>>> f41789e078a4209d5efb88008eca2ec4e6e395d0
+>>>>>>> 
 ****Geovane Miranda Oliveira dos Santos***
