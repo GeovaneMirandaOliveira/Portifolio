@@ -15,7 +15,7 @@ function adicionarPaciente() {
     }
 
 
-pacientes.push(nome)   // adiciona o nome no final do vetor 
+pacientes.push(nome);   // adiciona o nome no final do vetor 
 
 var lista = "";   //string para concatenar pacientes
 
@@ -96,10 +96,10 @@ function atenderPaciente() {
     var outLista = document.getElementById("outLista");
 
    // Remove paciente do inicio da fila (e obtem nome)
-    var Atender = pacientes.shift();
+    var atender = pacientes.shift();
 
     // exibe nome do paciente em atendimento
-    outAtendimento.textContent = Atender;
+    outAtendimento.textContent = atender;
 
     // string para concatenar pacientes
     var lista = "";
@@ -115,4 +115,4 @@ function atenderPaciente() {
 }
 
 var btAtender = document.getElementById("btAtender");
-btAtender = addEventListener("click", atenderPaciente);
+btAtender.addEventListener("click", atenderPaciente);
